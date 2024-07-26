@@ -1,7 +1,7 @@
 import "dart:io";
 
 void main(){
-stdout.write("Enter 3 number");
+stdout.write("Enter 3 number:");
 String? num1=stdin.readLineSync()!;
 int newnum=int.parse(num1);
 String? num2=stdin.readLineSync()!;
